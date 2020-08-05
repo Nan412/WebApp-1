@@ -9,7 +9,7 @@ node {
  rtMaven.tool = "maven"
 
     stage('Clone sources') {
-        git url: 'https://github.com/Nan412/WebApp-1.git'
+        git url: 'https://github.com/duorg/webapp.git'
     }
 
     stage('Artifactory configuration') {
